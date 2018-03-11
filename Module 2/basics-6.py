@@ -1,7 +1,7 @@
 address = ["Flat Floor Street", "18", "New York"]
 pins = {"Mike":1234, "Joe":1111, "Jack":2222}
 
-print(address[0], address[1])
+print(address[0:2])
 
 pin = int(raw_input("Enter your pin: "))
 
